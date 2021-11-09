@@ -1,0 +1,63 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.17604679643625729 0.7298319775915033 0.6605700643757682 3.525806556119494
+  position -0.010479917278486128 1.8127430950939434 -0.19899770001823822
+}
+Floor {
+  size 1.5 1.5
+}
+E-puck {
+  hidden position_0_0 -7.315103450575183
+  hidden position_0_1 14.472920127351436
+  hidden rotation_1 -0.9999999999999999 0 0 5.25126716378399
+  hidden rotation_2 -1 0 0 1.9065495129922634
+  translation 0.024621220443364598 -6.396093652103266e-05 -0.08989189186067605
+  rotation 0.0002930788447553349 0.9999999143210614 -0.00029233997454748467 1.5702077223661752
+  controller "v2"
+}
+Solid {
+  translation 0.322886 0.05 -0.0359333
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 0 0
+        }
+      }
+      geometry Sphere {
+        radius 0.05
+      }
+    }
+  ]
+}
+Solid {
+  translation 0.311942 0.05 -0.215904
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 1 0
+        }
+      }
+      geometry Sphere {
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(1)"
+}
+PointLight {
+  attenuation 0 0 1
+  location 0 0.5 -0.7
+}
+PointLight {
+  attenuation 0 0 1
+  location 0.5 0.5 0.5
+}
+PointLight {
+  attenuation 0 0 1
+  location -0.5 0.5 0
+}
