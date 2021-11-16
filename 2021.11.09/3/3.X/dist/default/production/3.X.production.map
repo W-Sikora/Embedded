@@ -1,0 +1,59 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Sat Nov 13 19:14:24 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                 RES_VECT       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                MAIN_PROG       code   0x000003    program   0x0000cc
+.config_2007_BUILD/DEFAULT/PRODUCTION/JEDNOFA       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000068      
+                            0x002007    0x002007      
+            106 out of 8454 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+              KREC_W_LEWO   0x000015    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+             KREC_W_PRAWO   0x00002a    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+             PETLA_GLOWNA   0x00000e    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+                    START   0x000003    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+         ZMIANA_PREDKOSCI   0x00003f    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+          _MAIN_PROG_0065   0x000068    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+                      lp1   0x00005a    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+                      lp2   0x000064    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+                   powrot   0x000059    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+               przerywnik   0x000051    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+                 zmiana_1   0x000045    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+                 zmiana_2   0x000049    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+                 zmiana_3   0x00004d    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x000003    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+             PETLA_GLOWNA   0x00000e    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+              KREC_W_LEWO   0x000015    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+             KREC_W_PRAWO   0x00002a    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+         ZMIANA_PREDKOSCI   0x00003f    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+                 zmiana_1   0x000045    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+                 zmiana_2   0x000049    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+                 zmiana_3   0x00004d    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+               przerywnik   0x000051    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+                   powrot   0x000059    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+                      lp1   0x00005a    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+                      lp2   0x000064    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+          _MAIN_PROG_0065   0x000068    program     static C:\Users\w3wl\OneDrive - Politechnika Wroclawska\STUDIA\studia sem7\SYSTEMY WBUDOWANE\PROJEKT\3\3.X\jednofaz.asm
+
+
